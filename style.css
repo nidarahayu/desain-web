@@ -1,0 +1,289 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+	font-family:poppins;
+}
+
+body{
+	background-color:#AFEEEE;
+}
+	
+#wrapper{
+	width:780px;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+#header{
+	background-color:#48D1CC;
+	height:100px;
+	padding:10px;
+	margin:20px 0;
+	coverflow: hidden;
+	border-radius:10px;
+}
+
+#header img {
+	margin-left:10px;
+	margin-top:5px; 
+	width:50px; 
+	height:50px;
+}
+
+#menu-utama {
+	margin-top:0px;
+	list-style:none;
+	}
+
+#menu-utama li{
+	float:left;
+	padding:8px 20px;
+	border-right:1px solid #555555;
+	}
+	
+#menu-utama li a{
+	color:#FFFFFF;
+	text-decoration:none;
+	}
+
+#menu-utama li a:hover{
+	color:#2E8B57;
+	}
+
+#header form{
+	float:right;
+	margin-top:0px;
+	margin-right:10px;
+	}
+
+#header h2{
+	color:#FFF
+	}
+
+#header form input{
+	border:none;
+	height:2px;
+	margin:2px;
+	margin-top:0px;
+	}
+	
+#judul {
+	background-color:#48D1CC;
+	height:30px;
+	padding:5px;
+	margin:10px 0;
+	coverflow: hidden;
+	}
+	
+#judul h2{
+	text-align:center;
+	color:#FFF;
+	}
+
+#daftar-artikel{
+	width:470px;
+	float:left;
+	}
+	
+.artikel{
+	background:	#E0FFFF;
+	padding:10px;
+	margin-bottom:20px;
+	overflow:hidden;
+	}
+	
+.artikel img{
+	float:left;
+	margin-right:10px;
+	width:200px;
+	height:165px;
+}
+
+.artikel b{
+	color:#616060;
+	background:#DDDDDD;
+	padding:3px;
+	font-size:12px;
+	font-weight:bold;
+	margin-right:10px;
+	}
+
+.artikel p{
+	margin:10px 0;
+	text-align:justify;
+	}
+	
+.artikel a{
+	display:block;
+	text-align:right;
+	color:	#F08080;
+	text-decoration:blink;
+	}
+
+.artikel a:hover{
+	color:#20B2AA;
+	}
+	
+.judul-artikel a{
+	font-size:25px;
+	display:block;
+	text-align:center;
+	color:#000;
+	text-decoration:blink;
+	}
+	
+.judul-artikel a:hover{
+	color:#F00;
+	}
+
+.judul-artikel img{
+	margin-left:120px;
+	margin-right:120px;
+	}
+
+.artikel-1 img{
+	float:center;
+	margin-right:90px;
+	margin-left:120px;
+	width:200px;
+	height:165px;
+}
+
+.artikel-2 p{
+	margin:10px 0;
+	text-align:right;
+	}
+	
+.artikel-2 img{
+	float:left;
+	margin-right:10px;
+	margin-left:0;
+	width:50px;
+	height:50px;
+}
+	
+.artikel6{
+	height:160px;
+	width:760px;
+	margin:0px;
+	background:	#E0FFFF;
+	padding:10px;
+	margin-bottom:15px;
+	overflow:hidden;
+	}
+
+.artikel6 h1{
+	text-align:center;
+	color:#20B2AA;
+}
+	
+.artikel6 p{
+	margin-top:3px;
+	font-size:15px;
+	margin-left:20px
+	text-align:left;
+	color:#20B2AA;
+	}
+
+.artikel6 img{
+	float:left;
+	margin-left: 10px;
+	margin-right:10px;
+	width:30px;
+	height:30px;
+}
+
+#sidebar {
+	width:270px;
+	float:right;
+	}
+	
+#sidebar h2{
+	margin-left:0px;
+	font-size:18px;
+	}
+	
+#sidebar p{
+	line-height:20px;
+	color:#636363;
+	text-align:justify;
+	}
+	
+#sidebar ul li a{
+	color:#636363;
+	text-decoration:none;
+	}
+	
+#sidebar ul li a:hover{
+	color:#F00;	
+	}
+
+#sidebar ul{
+	color:#636363;
+	text-decoration:none;
+	margin-left:20px;
+	}
+	
+#footer{
+	clear:both;
+	margin:20px 0;
+	text-align:center;
+	background-color:#48D1CC;
+	padding:10px;
+	color:ffffff;
+	border-radius:10px;
+	}
+
+#footer p{
+	color:#FFFFFF;
+}
+
+.form_contact {
+	margin-left: 30px;
+	display: grid;
+	grid-template-coloumns: 1fr 1fr;
+	}
+	
+#myform {
+	display: grid;
+	grid-template-coloumns: 1fr 1fr;
+	grid-gap: 10px;
+	}
+	
+.full-width{
+	grid-columns: 1/2;
+	}
+	
+.form_contact label{
+	display: block;
+	}
+	
+.form_contact p{
+	margin: 0;
+	}
+	
+.form_contact button, input, textarea{
+	padding: 1em;
+	}
+	
+.form_contact button{
+	padding: 0em;
+	}
+	
+button {
+	background: #0CC;
+	width: 20%;
+	border: 100;
+	}
+	
+button:hover, button:focus {
+	background:#20B2AA;
+	outline: 0;
+	}
+	
+input:focus, textarea:focus {
+	outline: 3px solid #87CEEB;
+	}
